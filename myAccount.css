@@ -1,0 +1,122 @@
+.profileUser {
+  margin-top: 30px;
+  margin-left: 107px;
+  display: flex;
+}
+.img1 {
+  width: 137px;
+}
+.imgAndPlus {
+  padding-bottom: 7px;
+}
+
+.imgAndPlus button,
+.imgAndPlus button a {
+  width: 155px;
+  background-color: #27ae61;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+.imgAndPlus label {
+  background-color: #27ae61;
+}
+.profileInfo {
+  margin-left: 42px;
+  margin-top: 5px;
+  width: 77%;
+}
+.profileInfo,
+.profileInfo p,
+.profileUser input,
+.profileUser div {
+  background-color: white;
+}
+.profileUser .col .imgAndPlus,
+.profileUser .col {
+  background-color: #e7f3ed;
+}
+
+.profileInfo p {
+  background-color: #f6f9fc;
+  width: 100%;
+  padding-left: 25px;
+  padding-top: 12px;
+}
+.flex {
+  justify-content: space-evenly;
+  margin-bottom: 14px;
+}
+.profileUser .flex input {
+  width: 40%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.nflex {
+  width: 86.5%;
+  margin-bottom: 14px;
+  margin-left: 46px;
+  border-color: #ddd;
+  border-radius: 5px;
+}
+.update {
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .update {
+    margin-left: 15%;
+  }
+  .profileUser {
+    display: flex;
+    margin-left: 0px;
+    flex-flow: wrap;
+  }
+  .col {
+    margin-bottom: 27px;
+    margin-left: 79px;
+  }
+  .nflex {
+    margin-left: 16px;
+  }
+  .SecondSec {
+    width: 100%;
+    padding: 0px;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
+  .SecondSec div {
+    text-align: center;
+    width: 47%;
+    color: #27ae61;
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+  }
+}
+@media (min-width: 760px) and (max-width: 990px) {
+  .SecondSec div {
+    width: 20%;
+  }
+  .SecondSec {
+    justify-content: space-between;
+  }
+  .profileUser {
+    margin-top: 30px;
+    margin-left: 0px;
+    display: flex;
+  }
+  .nflex {
+    margin-left: 35px;
+  }
+  .update {
+    margin-left: 21%;
+  }
+  .SecondSec {
+    padding: 0px;
+  }
+}

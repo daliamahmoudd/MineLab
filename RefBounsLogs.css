@@ -1,0 +1,26 @@
+.RefBounsLog {
+  display: flex;
+}
+.SecondSec div {
+  width: fit-content;
+}
+@media screen and (max-width: 767px) {
+  .refressInfo div label {
+    margin-right: 18%;
+  }
+  .SecondSec div {
+    width: fit-content;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 990px) {
+  .SecondSec div {
+    width: fit-content;
+  }
+  .refressInfo img {
+    width: 175px;
+  }
+  .refressInfo div label {
+    margin-right: 29%;
+  }
+}

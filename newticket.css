@@ -1,0 +1,83 @@
+.profileInfo {
+  margin-left: 129px;
+  width: 84.5%;
+}
+.profileInfo div,
+.profileInfo input {
+  background-color: white;
+}
+.profileInfo input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.flex {
+  justify-content: space-between;
+  width: 86%;
+  margin-left: 47px;
+}
+.profileInfo .flex input {
+  width: 49%;
+}
+.update {
+  margin-left: 230px;
+}
+.inp input {
+  width: 75%;
+}
+.inp {
+  width: 87%;
+  margin-left: 43px;
+}
+
+@media screen and (max-width: 767px) {
+  .profileInfo {
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+  .SecondSec {
+    width: 100%;
+    padding: 0px;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .SecondSec div {
+    text-align: center;
+    width: 47%;
+    color: #27ae61;
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+    height: 34px;
+  }
+  .inp {
+    width: 95%;
+    margin-left: 9px;
+  }
+  .imgAndPlus button {
+    width: 164px;
+    margin-left: 34px;
+  }
+  .update {
+    margin-left: 0px;
+  }
+  .flex {
+    margin-left: 18px;
+  }
+}
+@media (min-width: 760px) and (max-width: 990px) {
+  .SecondSec div {
+    text-align: center;
+    width: 47%;
+    color: #27ae61;
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+  }
+  .profileInfo {
+    margin-left: 2px;
+    width: 94%;
+  }
+  .update {
+    margin-left: 143px;
+  }
+}

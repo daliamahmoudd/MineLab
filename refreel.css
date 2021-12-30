@@ -1,0 +1,87 @@
+.refLink,
+.refLink div,
+.refLink label,
+.refLink input,
+.refLink img,
+.refressInfo,
+.refressInfo div,
+.refressInfo div label {
+  background-color: white;
+}
+.refLink {
+  margin-top: 10px;
+  margin-bottom: 90px;
+}
+.refLink .cont {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: fit-content;
+  padding-left: 42px;
+}
+.refLink input {
+  border: 1px solid #ddd;
+  margin-left: 42px;
+  margin-bottom: 15px;
+  width: 80%;
+}
+.refLink button {
+  margin-left: -6px;
+  background-color: #27ae61;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+  border: none;
+  padding: 3px;
+  padding-right: 11px;
+  padding-left: 10px;
+}
+.refressInfo div label {
+  margin-right: 40%;
+  margin-left: 20px;
+  margin-top: 1%;
+  color: #ddd;
+}
+.refressInfo .line {
+  width: 100%;
+  height: 52px;
+  background-color: #f6f9fc;
+}
+.refressInfo img {
+  margin-top: 35px;
+  margin-left: 28%;
+  background-color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .refLink input {
+    width: fit-content;
+    margin-left: 17px;
+  }
+  .refLink .cont {
+    padding-left: 5px;
+  }
+  .refLink button {
+    padding-left: 0px;
+  }
+
+  .SecondSec div {
+    width: 170px;
+    margin-top: 0px;
+  }
+  .refressInfo img {
+    margin-left: 23%;
+    width: 152px;
+  }
+}
+@media (min-width: 760px) and (max-width: 990px) {
+  .refLink .cont {
+    padding-left: 18px;
+  }
+  .refLink input {
+    margin-left: 21px;
+  }
+
+  .refressInfo img {
+    margin-left: 35%;
+    width: 105px;
+  }
+}

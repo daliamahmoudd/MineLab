@@ -1,0 +1,63 @@
+.withdrawlMeth {
+  background-color: white;
+  height: 300px;
+}
+.refLink {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.balance {
+  margin-right: 85px;
+}
+.inp,
+.inp input {
+  background-color: white;
+}
+
+.inp input {
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-left: 50px;
+}
+.inp button {
+  margin-left: -6px;
+  background-color: #27ae61;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+  border: none;
+  padding: 3px;
+  padding-right: 11px;
+  padding-left: 10px;
+}
+@media screen and (max-width: 767px) {
+  .SecondSec div {
+    width: 31%;
+    padding: 3px;
+  }
+  .refLink .cont {
+    padding-bottom: 0px;
+  }
+  .refLink {
+    display: block;
+  }
+  .inp input {
+    width: 55%;
+    margin-left: 9px;
+  }
+  .SecondSec {
+    flex-flow: wrap;
+    justify-content: center;
+  }
+}
+@media (min-width: 760px) and (max-width: 990px) {
+  .inp input {
+    width: 67%;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+  .inp input {
+    width: 74%;
+  }
+}

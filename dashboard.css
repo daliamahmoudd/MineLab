@@ -1,0 +1,124 @@
+* {
+  background-color: #e7f3ed;
+}
+
+.logo {
+  margin-top: 70px;
+  margin-bottom: 45px;
+  margin-left: 37px;
+}
+/* .asideConatiner {
+  margin-bottom: 25px;
+} */
+.image {
+  margin-bottom: 2px;
+  padding-left: 37px;
+}
+
+.define {
+  font-family: Sofia Pro;
+  color: #9a9a9a;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 3px;
+}
+
+.lastPart {
+  margin-top: 100px;
+}
+.secondSec {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-around;
+  width: 76%;
+  margin-left: 60px;
+}
+.wallet {
+  background-color: #27ae61;
+  width: 47%;
+  border-radius: 6px;
+}
+.wallet span,
+.wallet div {
+  color: #ddd;
+  background-color: #27ae61;
+  padding-left: 80px;
+  font-family: sofia pro;
+  font-size: 20px;
+}
+.wallet div {
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 116px;
+}
+.wallet .activeSider {
+  position: relative;
+  left: 40px;
+  background-color: #27ae61;
+  padding-top: 20px;
+  width: 45px;
+  padding-bottom: 20px;
+}
+.chartPart {
+  margin-left: 70px;
+  background-color: white;
+  margin-top: 14px;
+  padding: 20px;
+  width: 73.5%;
+}
+.chartPart .overView div {
+  background-color: white;
+}
+.chartPart .deposite {
+  font-weight: bold;
+  font-size: 20px;
+}
+#myChart {
+  background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .wallet .activeSider {
+    left: 15px;
+  }
+  .image {
+    padding-left: 0px;
+  }
+  .logo img {
+    width: 95%;
+  }
+  .secondSec {
+    display: block;
+    width: 73%;
+    margin-left: 40px;
+  }
+  .wallet {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .wallet span,
+  .wallet div {
+    padding-left: 27px;
+  }
+  .wallet div {
+    padding-left: 74px;
+  }
+  .chartPart {
+    margin-left: 40px;
+  }
+}
+@media (min-width: 760px) and (max-width: 990px) {
+  .secondSec {
+    margin-left: 65px;
+  }
+  .wallet .activeSider {
+    left: 2px;
+  }
+  .wallet span,
+  .wallet div {
+    padding-left: 0px;
+    font-size: 15px;
+  }
+  .wallet div {
+    padding-left: 27px;
+  }
+}

@@ -1,0 +1,65 @@
+.wallet1 {
+  width: 50%;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px #ced4da;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.wallet1 .wall {
+  margin-bottom: 50px;
+  padding-top: 5px;
+  color: #27ae61;
+  border-radius: 5px;
+}
+.wallet1 .amount,
+.date {
+  color: #525f7f;
+  font-weight: bold;
+  font-size: 30px;
+}
+.wallet1 div {
+  background-color: white;
+  text-align: center;
+  color: #525f7f;
+}
+.wallet1 div label,
+.wallet1 div input {
+  background-color: white;
+}
+.wallet1 input {
+  border: 1px solid #ddd;
+}
+.wallet1 label {
+  width: 180px;
+}
+.wallet1 .info {
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.wallet1 .button {
+  margin-top: 75px;
+  padding-bottom: 2px;
+}
+.wallet1 .button .WithdrawButton {
+  background-color: #27ae61;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+.wallet1 .button .delete {
+  background-color: white;
+  border: none;
+  color: #ced4da;
+}
+@media screen and (max-width: 767px) {
+  .wallet1 {
+    width: 100%;
+  }
+  .SecondSec div {
+    padding: 6px;
+    width: 25%;
+  }
+}
+@media (min-width: 760px) and (max-width: 990px) {
+}

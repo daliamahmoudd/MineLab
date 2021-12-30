@@ -1,0 +1,19 @@
+.refressInfo {
+  width: 100%;
+}
+.RefBounsLog {
+  justify-content: space-around;
+}
+.refressInfo div label {
+  margin-right: 0px;
+}
+.imgAndPlus {
+  justify-content: end;
+}
+
+@media screen and (max-width: 767px) {
+  .SecondSec div {
+    width: 25%;
+    padding: 0px;
+  }
+}

@@ -1,0 +1,41 @@
+.plan1 {
+  width: 45%;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px #ced4da;
+  border-radius: 5px;
+}
+.SecondSec {
+  padding-right: 22px;
+}
+.plan1 p {
+  background-color: white;
+  color: #27ae61;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+.plan1 .hashrate {
+  padding-top: 57px;
+  padding-bottom: 20px;
+}
+.withdraw {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.SecondSec .selected {
+  border: 1px solid #27ae61;
+}
+@media screen and (max-width: 767px) {
+  .logo img {
+    width: 77%;
+  }
+  .withdraw {
+    display: block;
+  }
+  .plan1 {
+    width: 100%;
+  }
+  .SecondSec div {
+    width: 50%;
+  }
+}

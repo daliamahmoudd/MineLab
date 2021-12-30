@@ -1,0 +1,49 @@
+.SecondSec {
+  justify-content: end;
+}
+.SecondSec div,
+.SecondSec div a {
+  padding: 11px;
+  color: #27ae61;
+  background-color: white;
+  margin: 2px;
+  margin-top: 70px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.tablee {
+  background-color: white;
+  padding: 4px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 14px;
+  padding: 5px;
+}
+table th,
+table td {
+  background-color: white;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+.noBorder td {
+  border-bottom: none;
+}
+@media screen and (max-width: 767px) {
+  .tablee {
+    background-color: #e7f3ed;
+  }
+  .SecondSec {
+    justify-content: start;
+  }
+  .SecondSec div {
+    width: 15%;
+  }
+  .SecondSec div a {
+    padding: 8px;
+  }
+}

@@ -1,0 +1,96 @@
+.view {
+  color: white;
+  background-color: #27ae61;
+  border: none;
+  padding: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5px;
+}
+ul {
+  margin-top: 15px;
+}
+
+.approved {
+  border: 1px solid #27ae61;
+}
+.approved,
+.approved li {
+  background-color: #d9fbc6;
+  margin-left: 8px;
+  border-radius: 15px;
+  width: fit-content;
+  padding-right: 8px;
+  color: #27ae61;
+  padding-bottom: 3px;
+}
+.pending {
+  border: 1px solid #ffc400;
+}
+.pending li,
+.pending {
+  background-color: #fff1c0;
+  border-radius: 15px;
+  margin-left: 11px;
+  width: fit-content;
+  padding-right: 11px;
+  padding-bottom: 3px;
+  color: #ffc400;
+}
+
+.refuse {
+  border: 1px solid #ff0000;
+}
+.refuse,
+.refuse li {
+  background-color: #ffc3c3;
+  color: #ff0000;
+  border-radius: 15px;
+  width: fit-content;
+  margin-left: 11px;
+  padding-right: 8px;
+  padding-bottom: 3px;
+}
+.onPressView {
+  position: absolute;
+  width: 50%;
+  bottom: 170px;
+  right: 25%;
+  z-index: 3;
+}
+.displayed {
+  display: none;
+}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+.det {
+  padding-right: 55px;
+}
+.wallet1 {
+  width: 100%;
+}
+.close {
+  position: absolute;
+  right: 40px;
+  top: 0px;
+}
+@media screen and (max-width: 767px) {
+  .onPressView {
+    width: 100%;
+    left: 130px;
+  }
+  .tablee {
+    background-color: #e7f3ed;
+  }
+}

@@ -1,0 +1,74 @@
+.firstPart,
+.SecPart {
+  width: 48.5%;
+}
+.profileInfo p {
+  padding: 15px;
+}
+.refLink .cont {
+  padding-bottom: 0px;
+  padding-top: 3px;
+  padding-left: 18px;
+}
+.profileInfo {
+  width: auto;
+}
+.inp {
+  width: 90%;
+  margin-left: 13px;
+}
+
+.profileInfo .qrCode {
+  background-color: white;
+  margin-left: 72px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.imgAndPlus button {
+  margin-left: 15%;
+  width: 70%;
+}
+.profileInfo .SEcToLast {
+  background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .secure {
+    flex-flow: column;
+  }
+  .firstPart,
+  .SecPart {
+    width: 100%;
+  }
+  .profileInfo .qrCode {
+    margin-left: 25%;
+    width: 105px;
+  }
+}
+@media (min-width: 760px) and (max-width: 990px) {
+  .secure {
+    flex-flow: column;
+  }
+  .firstPart,
+  .SecPart {
+    width: 100%;
+  }
+  .profileInfo .qrCode {
+    margin-left: 138px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  .secure {
+    flex-flow: column;
+    width: 97%;
+  }
+  .profileInfo .qrCode {
+    margin-left: 201px;
+  }
+  .firstPart,
+  .SecPart {
+    width: 100%;
+  }
+  .SecondSec {
+    margin-left: 40px;
+  }
+}
